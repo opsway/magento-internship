@@ -1,0 +1,12 @@
+# IDE project files
+.idea
+.buildpath
+.project
+.settings
+nbproject
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store files
+.DS_Store
