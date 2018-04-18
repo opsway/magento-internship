@@ -1,0 +1,51 @@
+version: "3"
+services:
+  nginx:
+    container_name: mageintern_nginx
+    image: opsway/mageintern-nginx
+    build:
+      context: ./dev/docker/nginx
+    stdin_open: true
+    tty: true
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - phpfpm
+    links:
+      - phpfpm
+    volumes:
+      - ./src/:/var/www
+    environment:
+      APP_HOST: "magento.loc"
+
+  phpfpm:
+    container_name: mageintern_phpfpm
+    image: opsway/mageintern-phpfpm
+    build:
+      context: ./dev/docker/phpfpm
+    stdin_open: true
+    tty: true
+    ports:
+      - 9000:9000
+    depends_on:
+      - database
+    links:
+      - database
+    volumes:
+      - ./src/:/var/www
+
+  database:
+    container_name: mageintern_database
+    image: mariadb:10.3
+    stdin_open: true
+    tty: true
+    ports:
+      - 3306:3306
+    volumes:
+      - ./dev/shared/db/:/var/lib/mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: "magento_db"
+      MYSQL_USER: "root"
+      MYSQL_PASSWORD: "password"
