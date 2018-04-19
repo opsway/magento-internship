@@ -16,7 +16,10 @@
         "magento-hackathon/magento-composer-installer": "~3.0",
         "magento/core": "1.9.3.8"
     },
-    "require-dev": {},
+    "require-dev": {
+        "magento-ecg/coding-standard": "^3.1",
+        "squizlabs/php_codesniffer": "^3.2"
+    },
     "repositories": [
         {
             "type": "composer",
@@ -43,5 +46,8 @@
             "git-ignore-append": true
         },
         "auto-append-gitignore": true
+    },
+    "scripts": {
+        "phpcs": "vendor/bin/phpcs --standard=vendor/magento-ecg/coding-standard/Ecg --extensions=php,phtml --encoding=utf-8 --colors -p -s"
     }
 }
