@@ -23,7 +23,7 @@ RUN docker-php-ext-configure gd \
         --with-freetype-dir=/usr/include/ \
         --with-jpeg-dir=/usr/include/ \
         --with-png-dir=/usr/include/
-RUN docker-php-ext-install gd zip opcache mbstring soap pdo pdo_mysql
+RUN docker-php-ext-install gd mbstring mcrypt opcache pdo_mysql soap zip
 RUN pecl install xdebug-2.5.5
 
 # Install Composer

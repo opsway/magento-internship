@@ -45,7 +45,7 @@ services:
     volumes:
       - ./dev/shared/db/:/var/lib/mysql
     environment:
-      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_ROOT_PASSWORD: "root_password"
       MYSQL_DATABASE: "magento_db"
-      MYSQL_USER: "root"
+      MYSQL_USER: "magento_user"
       MYSQL_PASSWORD: "password"
