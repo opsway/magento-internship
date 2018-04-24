@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <OpsWay_HelloWorld>
+            <version>0.1.0</version>
+        </OpsWay_HelloWorld>
+    </modules>
+    <global>
+    </global>
+    <frontend>
+        <routers>
+            <opsway_helloworld>
+                <use>standard</use>
+                <args>
+                    <frontName>hello</frontName>
+                    <module>OpsWay_HelloWorld</module>
+                </args>
+            </opsway_helloworld>
+        </routers>
+    </frontend>
+</config>
