@@ -28,3 +28,4 @@
 - [Урок 0: Подготавливаемся к работе](guide/00_install.md)
 - [Урок 1: Magento глазами пользователя](guide/01_userguide.md)
 - [Урок 2: Устройство модулей, контроллеры и роутинг](guide/02_hello_world.md)
+- [Урок 3: Шаблоны, layouts, валидация](guide/03_templates.md)
