@@ -36,3 +36,6 @@
 - [Урок 8: Конфигурирование модуля](guide/08_configuration.md)
 - [Урок 9: Кэширование в Magento](guide/09_cache.md)
 - [Урок 10: События в Magento](guide/10_events.md)
+
+## Дополнительные материалы
+- [PhpStorm: Cинхронизация файлов с удаленным сервером](guide/extra/phpstorm_sync.md)
