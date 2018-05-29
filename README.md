@@ -35,3 +35,4 @@
 - [Урок 7: Подготовка нового модуля](guide/07_blocks.md)
 - [Урок 8: Конфигурирование модуля](guide/08_configuration.md)
 - [Урок 9: Кэширование в Magento](guide/09_cache.md)
+- [Урок 10: События в Magento](guide/10_events.md)
