@@ -34,3 +34,4 @@
 - [Урок 6: Админка - просмотр и управление](guide/06_admin_control.md)
 - [Урок 7: Подготовка нового модуля](guide/07_blocks.md)
 - [Урок 8: Конфигурирование модуля](guide/08_configuration.md)
+- [Урок 9: Кэширование в Magento](guide/09_cache.md)
