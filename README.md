@@ -30,4 +30,5 @@
 - [Урок 2: Устройство модулей, контроллеры и роутинг](guide/02_hello_world.md)
 - [Урок 3: Шаблоны, layouts, валидация](guide/03_templates.md)
 - [Урок 4: Модели, коллекции и setup-скрипты](guide/04_database.md)
-- [Урок 5: Cron и логирование](guide/05_cron_logs.md)
+- [Урок 5: Cron и логирование ошибок](guide/05_cron_logs.md)
+- [Урок 6: Админка - просмотр и управление](guide/06_admin_control.md)

@@ -30,6 +30,7 @@
 - [Magento for Developers: Part 2 — The Magento Config](https://devdocs.magento.com/guides/m1x/magefordev/mage-for-dev-2.html)
 - [Magento for Developers: Part 3 — Magento Controller Dispatch](https://devdocs.magento.com/guides/m1x/magefordev/mage-for-dev-3.html)
 - [Magento fundamentals for developers (Chapter 1)](https://books.google.com.ua/books?id=nrVJCgAAQBAJ&lpg=PA5&ots=gyVSlWfq2F&dq=magento%20autoloader%20tutorial&pg=PA1#v=onepage&q&f=false)
+- [Разработка модулей для Magento 1.x: большой гайд + видео](https://habr.com/post/312322/) (затрагивает много тем)
 
 ### Практика
 
